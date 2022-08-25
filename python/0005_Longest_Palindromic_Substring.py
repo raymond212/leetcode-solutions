@@ -22,7 +22,7 @@ class Solution:
         return ans
 
 # Two pointers
-class Solution:
+class Solution2:
     def longestPalindrome(self, s):
         res = ""
         for i in range(len(s)):
@@ -43,7 +43,7 @@ class Solution:
         return s[l + 1: r]
 
 # First two pointers solution
-class Solution:
+class Solution3:
     def longestPalindrome(self, s: str) -> str:
         if s is None:
             return ""
