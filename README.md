@@ -1,4 +1,3 @@
 # leetcode-solutions
 
-A repository of leetcode solutions. 
-leetcode account: https://leetcode.com/ruiwenhw/
+A repository of leetcode solutions. https://leetcode.com/ruiwenhw/
