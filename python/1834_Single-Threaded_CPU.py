@@ -8,15 +8,16 @@ class Solution:
         tasks.sort()
 
         time = 1
+        task = 0
         ans = []
         available = []
 
-        while tasks or available:
-            if not available and tasks[0][0] > time:
-                time = tasks[0][0]
-            while tasks and tasks[0][0] <= time:
-                heappush(available, (tasks[0][1], tasks[0][2]))
-                tasks.pop(0)
+        while task < len(tasks) or available:
+            if not available and tasks[task][0] > time:
+                time = tasks[task][0]
+            while task < len(tasks) and tasks[task][0] <= time:
+                heappush(available, (tasks[task][1], tasks[task][2]))
+                task += 1
             process_time, label = heappop(available)
             ans.append(label)
             time += process_time
