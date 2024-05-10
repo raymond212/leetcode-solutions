@@ -20,7 +20,7 @@ class Solution:
         return res
 
 # two pass solution. DP
-class Solution:
+class Solution2:
     def trap(self, height: List[int]) -> int:
         if not height or len(height) < 3:
             return 0
