@@ -4,4 +4,4 @@ A repository of leetcode solutions written in Python, C++, and Java. https://lee
 
 | | [Python](https://github.com/raymond212/leetcode-solutions/tree/main/python) | [C++](https://github.com/raymond212/leetcode-solutions/tree/main/cpp) | [Java](https://github.com/raymond212/leetcode-solutions/tree/main/java) |
 | --- | --- | --- | --- |
-| # of solutions | 418 | 23 | 10 |
+| # of solutions | 419 | 23 | 10 |
